@@ -1,0 +1,125 @@
+.p {
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.sky{
+    background-color: darkblue;
+    inset-inline: 0;
+    height: 400px;
+    z-index: 1;
+}
+.moon{
+    justify-content: right;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: lightyellow;
+    position:absolute;
+    z-index: 2;
+}
+.house{
+    width: 75px;
+    height: 200px;
+    background-color: brown;
+    position: relative;
+    top: -200px;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-top-style: dotted;
+    border-color: yellow;
+    z-index: 3;
+}
+.building{
+    width: 150px;
+    height: 220px;
+    left: 90px;
+    background-color: rgb(161, 132, 94);
+    position: relative;
+    top: -420px;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-top-style: dotted;
+    border-color: yellow;
+    z-index: 4;
+}
+.b2{
+    width: 100px;
+    height: 180px;
+    background-color: rgb(187, 152, 105);
+    position: relative;
+    left: 260px;
+    top: -600px;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-top-style: dotted;
+    border-color: yellow;
+    z-index: 5;
+}
+.b3{
+    width: 150px;
+    height: 300px;
+    left: 385px;
+    position: relative;
+    background-color: rgb(114, 95, 72);
+    top: -900px;
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-top-style: dotted;
+    border-color: yellow;
+    z-index: 6;
+}
+.ground{
+    height: 30px;
+    background-color: darkgrey;
+    inset-inline: 0;
+    border-bottom: 0;
+    position: relative;
+    top: -912px;
+    z-index: 9;
+}
+.tree{
+    height: 0;
+    width: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 200px solid darkgreen;
+    position: relative;
+    top: -1545px;
+    left: 600px;
+    z-index: 8;
+}
+.base{
+    height: 6px;
+    width: 10px;
+    position: relative;
+    top: -1548px;
+    left: 670px;
+    background-color: peru;
+    z-index: 7;
+}
+.t2{
+    height: 0;
+    width: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 200px solid rgb(11, 165, 11);
+    position: relative;
+    top: -1348px;
+    left: 559px;
+    z-index: 8;
+}
+.t3{
+    height: 0;
+    width: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 200px solid rgb(1, 53, 1);
+    position: relative;
+    top: -1145px;
+    left: 688px;
+    z-index: 8;
+}
+h1{
+    color: blue;
+}
